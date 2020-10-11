@@ -1,0 +1,29 @@
+# directories
+.vs/
+
+building_output__/*
+!building_output__/x64_Debug/data/
+!building_output__/x64_Debug/glfw3.dll
+!building_output__/x64_Debug/zygote_gl_proj.exe
+
+building_output__/x64_Debug/data/*
+!building_output__/x64_Debug/data/tex/png/*
+
+!building_output__/x64_Debug/*
+!building_output__/x64_Debug/*
+
+external/*
+!external/gl3w.zip
+!external/glfw-3.3.2.bin.WIN64.zip
+!external/glm-0.9.9-a2.zip
+!external/stb_image.zip
+
+src/not_used__/
+
+
+# files
+# .gitignore
+zygote_gl_proj.vcxproj.user
+info__.txt
+src/msbsp.hpp
+src/glApi/test_text.cpp
